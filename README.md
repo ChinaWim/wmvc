@@ -1,5 +1,5 @@
 # wmvc
-<h3><h3>
+<h3>说明<h3>
 wmvc是仿springmvc的一个轻量级框架,除了使用javassist第三方jar外,未使用其他jar,全部功能均自己实现<br>
 可以用来学习springmvc的原理和开发轻量级web项目<br>
 <h3>功能</h3>
@@ -14,8 +14,8 @@ wmvc是仿springmvc的一个轻量级框架,除了使用javassist第三方jar外
 @Scope
 </strong>
 <h3>效果图:</h3>
-<img src = "https://github.com/Wayming233/wmvc/blob/master/img/image1.png">
 <img src = "https://github.com/Wayming233/wmvc/blob/master/img/image2.png">
+<img src = "https://github.com/Wayming233/wmvc/blob/master/img/image1.png">
 <br>
 项目会不定期更新，欢迎关注。 本项目更大的用处是学习spring的思想.
 
