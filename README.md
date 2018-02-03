@@ -9,8 +9,8 @@ wmvc是仿springmvc的一个轻量级框架,除了使用javassist第三方jar外
 @Autowired<br>
 @Scope<br>
 效果图:<br>
-![image](http://github.com/Wayming233/wmvc/raw/master/img/image1.jpg)
-![image](http://github.com/Wayming233/wmvc/raw/master/img/image2.jpg)
+![image](http://github.com/Wayming233/wmvc/raw/master/img/image1.png)
+![image](http://github.com/Wayming233/wmvc/raw/master/img/image2.png)
 <br>
 功能持续完善。
 
