@@ -56,9 +56,7 @@ public class DispatcherServlet extends javax.servlet.http.HttpServlet {
             //请求的方法
             String requestMethod = request.getMethod();
             RequestMethod annoMethod = handler.getMethod().getAnnotation(RequestMapping.class).method();
-            if( annoMethod == RequestMethod.GET_POST ||
-                    annoMethod == RequestMethod.GET && requestMethod.equals("GET") ||
-                    annoMethod == RequestMethod.POST && requestMethod.equals("POST") )
+            if(annoMethod.getMethod().equals("GET_POST") || annoMethod.getMethod().equals(requestMethod))
                 HandlerHelper.invokeHandler(handler,instances,request,response);
             else {
                 throw  new RuntimeException("请求方式错误!");
