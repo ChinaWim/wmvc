@@ -1,6 +1,6 @@
 # wmvc
 <h3>说明</h3>
-wmvc是仿springmvc的一个轻量级框架,除了使用javassist第三方jar外,未使用其他jar,全部功能均自己实现。<br>
+wmvc是仿springmvc的一个轻量级框架,除了使用javassist第三方jar外(用于获取方法参数名，jdk8后提供相应api获取),未使用其他jar,全部功能均自己实现。<br>
 可以用来学习springmvc的原理和开发轻量级web项目。<br>
 <h3>功能</h3>
 自己模仿springmvc使用DispatchServlet控制路由。<br>
