@@ -10,6 +10,5 @@ import java.lang.annotation.*;
 @Documented
 public @interface Controller {
 
-
     String value() default "";
 }
